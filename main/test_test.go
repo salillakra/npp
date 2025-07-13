@@ -27,7 +27,7 @@ func TestCodeNPP(t *testing.T) {
 	os.Stdout = w
 
 	l := lexer.New(string(code))
-	p := parser.New(l, false) // Disabled debug output
+	p := parser.New(l, false) // Disabled debug
 	program := p.ParseProgram()
 	i := core.New()
 	i.Interpret(program)

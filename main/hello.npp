@@ -1,16 +1,16 @@
 sun number = 2;
-
 suna number;
 
 
 sun a = "hello ";
 sun b = "world";
 
+
 suna a+b;
 
 
 agar number >= 10 {
     suna "nice one baby!";
-} magar{
+} magar {
     suna "fuck off!";
 }
