@@ -38,7 +38,7 @@ func TestCodeNPP(t *testing.T) {
 	n, _ := r.Read(buf[:])
 	output := string(buf[:n])
 
-	expected := "2\nhello world\nfuck off!\n"
+	expected := "2\nhello world\nIDK!\n"
 	if output != expected {
 		t.Errorf("Unexpected output.\nGot:\n%q\nWant:%q", output, expected)
 	}
