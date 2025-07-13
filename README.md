@@ -1,4 +1,4 @@
-# NPP: Nasty Programming Language
+# NPP: Nasty Plus Plus
 
 NPP is a custom programming language implemented in Go. It features a simple interpreter, lexer, and parser, supporting variable declarations, arithmetic, string operations, conditionals, and print statements. This project demonstrates how to build a basic language and interpreter from scratch.
 
