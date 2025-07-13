@@ -4,7 +4,6 @@ import (
 	"unicode"
 )
 
-// Lexer represents the lexical analyzer for the SassGo language.
 type Lexer struct {
 	input        string // source code
 	position     int    // current position (index of ch)
