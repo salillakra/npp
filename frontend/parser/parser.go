@@ -40,7 +40,6 @@ func (p *Program) String() string {
 	return out
 }
 
-// PrintStatement represents a print statement (e.g., suna "You suck!").
 type PrintStatement struct {
 	Tok   lexer.Token
 	Value Expression
